@@ -1,0 +1,7 @@
+# git
+\.gitmodules
+\.git
+\.gitignore
+
+# Only stow files/dirs at project root that start with '.'
+^/[^.].*

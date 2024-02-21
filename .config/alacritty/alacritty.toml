@@ -1,0 +1,19 @@
+import = [
+    "~/.config/alacritty/themes/themes/catpuccin-latte.toml"
+]
+
+[window.dimensions]
+columns = 140
+lines = 40
+
+[font.normal]
+family = "MesloLGSNF"
+style = "Regular"
+
+[font.bold]
+family = "MesloLGSNF"
+style = "Bold"
+
+[font.italic]
+family = "MesloLGSNF"
+style = "Italic"

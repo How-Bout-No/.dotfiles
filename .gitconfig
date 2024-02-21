@@ -1,0 +1,18 @@
+[user]
+    name = Noah
+    email = howboutno.one@gmail.com
+[init]
+    defaultBranch = main
+[core]
+    editor = micro
+[alias]
+	co = checkout
+    br = branch
+    c = commit
+    cm = commit -m
+    a = add
+    s = status
+    ps = push
+    pl = pull
+[pull]
+    rebase = false

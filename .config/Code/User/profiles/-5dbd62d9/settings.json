@@ -1,0 +1,5 @@
+{
+    "terminal.integrated.fontFamily": "'MesloLGS NF'",
+    "editor.fontFamily": "'MesloLGS NF'",
+    "tabnine.experimentalAutoImports": true
+}

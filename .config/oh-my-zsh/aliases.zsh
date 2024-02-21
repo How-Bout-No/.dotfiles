@@ -1,10 +1,10 @@
-# functions
+# main
+alias e="edit"
 alias quit="exit"
 alias q="quit"
 
 # ls
-alias ls="lsd"
-alias l="ls -hF"
+alias l="lsd -hF"
 alias la="l -A"
 alias ll="l -l"
 alias lla="la -l"
