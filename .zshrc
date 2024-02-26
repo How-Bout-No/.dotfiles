@@ -7,6 +7,8 @@ if [[ -d "$HOME/.local/bin" ]] ; then export PATH="$HOME/.local/bin:$PATH"; fi
 if [[ -d "$HOME/.cargo/bin" ]] ; then export PATH="$HOME/.cargo/bin:$PATH"; fi
 
 export XDG_CONFIG_HOME=$HOME/.config
+export HOST=$(hostname --fqdn)
+export HOSTNAME=$HOST
 
 # Path to your oh-my-zsh installation.
 export ZSH="$HOME/.oh-my-zsh"
@@ -40,16 +42,17 @@ source $ZSH/oh-my-zsh.sh
 # export MANPATH="/usr/local/man:$MANPATH"
 
 export LANG=en_US.UTF-8
+export LC_ALL=en_US.UTF-8
 export TZ="America/New_York"
 
 export EDITOR='micro'
-# Preferred editor for local and remote sessions
+alias edit="$EDITOR"
+
 # if [[ -n $SSH_CONNECTION ]]; then
 #   export EDITOR='vim'
 # else
 #   export EDITOR='mvim'
 # fi
-alias edit="$EDITOR"
 
 # Compilation flags
 # export ARCHFLAGS="-arch x86_64"
